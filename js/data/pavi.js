@@ -88,7 +88,7 @@ function problem082(){
 		'id': '082',
 		'question': 'A train running at the '+speed+ 'km/hr crosses a pole in '+time+ 'sec What is the length of the train?',
 		'options': {
-			 'A':trainlength - parseInt(Math.random()*10),,
+			 'A':trainlength - parseInt(Math.random()*10),
 			'B': trainlength - parseInt(Math.random()*10),
 			'C': trainlength+ parseInt(Math.random()*10),
 			'D': trainlength
@@ -135,10 +135,10 @@ function problem083(){
 		'id': '083',
 		'question': 'A sum of money at simple interest '+amount+ 'in '+time+ 'years and '+amount+ 'in '+time+ 'years The sum is',
 		'options': {
-			'A':simpleinterest - parseInt(Math.random()*10),,
+			'A':simpleinterest - parseInt(Math.random()*10),
 			'B': simpleinterest * parseInt(Math.random()*10),
-			'C':simpleinterest
-			'D': simpleinterest + parseInt(Math.random()*10),
+			'C':simpleinterest,
+			'D': simpleinterest + parseInt(Math.random()*10)
 		},
 		'answer': 'c',
 		'author-id': '083'
@@ -193,7 +193,7 @@ function problem084(){
 			 'A':simpleinterest - parseInt(Math.random()*10),
 			'B': simpleinterest,
 			'C':simpleinterest* parseInt(Math.random()*10),
-			'D': simpleinterest + parseInt(Math.random()*10),
+			'D': simpleinterest + parseInt(Math.random()*10)
 		},
 		'answer': 'B',
 		'author-id': '084'
@@ -247,7 +247,7 @@ function problem085(){
 			 'A':simpleinterest,
 			'B': simpleinterest * parseInt(Math.random()*10),
 			'C':simpleinterest - parseInt(Math.random()*10),
-			'D': simpleinterest + parseInt(Math.random()*10),
+			'D': simpleinterest + parseInt(Math.random()*10)
 		},
 		'answer': 'A',
 		'author-id': '085'
@@ -294,7 +294,7 @@ function problem086(){
 			'A':	manspeed * parseInt(Math.random()*10),
 			'B': 	manspeed * parseInt(Math.random()*10),
 			'C':	manspeed,
-			'D': 	manspeed + parseInt(Math.random()*10),
+			'D': 	manspeed + parseInt(Math.random()*10)
 		},
 		'answer': 'c',
 		'author-id': '086'
@@ -348,7 +348,7 @@ function problem087(){
 			'A':	manspeed * parseInt(Math.random()*10),
 			'B': 	manspeed * parseInt(Math.random()*10),
 			'C':	manspeed + parseInt(Math.random()*10),
-			'D': 	manspeed,
+			'D': 	manspeed
 		},
 		'answer': 'D',
 		'author-id': '087'
@@ -395,7 +395,7 @@ function problem088(){
 			'A':	volume * parseInt(Math.random()*10),
 			'B':    volume,
 			'C':	volume + parseInt(Math.random()*10),
-			'D': volume- parseInt(Math.random()*10),
+			'D': volume- parseInt(Math.random()*10)
 			
 		},
 		'answer': 'B',
